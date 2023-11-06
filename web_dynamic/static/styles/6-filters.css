@@ -43,12 +43,27 @@ button:hover {
 }
 .locations {
     height: 100%;
-    width: 25%;
+    width: 30%;
     border-right: 1px solid #DDDDDD;
 }
+
 .amenities {
-    height: 100%;
-    width: 25%;
+    width: 30%;
+    max-width: 30%; /* Set a max-width to control the content */
+
+}
+  
+  /* Style the .amenities-list to show ellipsis */
+.amenities-list {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; /* Set to 100% to match the parent's width */
+}
+  
+  /* Add styles to the checkboxes within the .popover */
+.popover .check {
+    margin-right: 10px;
 }
 
 .popover {
